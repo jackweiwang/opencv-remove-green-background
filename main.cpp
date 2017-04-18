@@ -67,7 +67,7 @@ int main(int argc, char** argv)
 
 	if (!cap.isOpened())  // if not success, exit program
 	{
-		cout << "Cannot open the web cam" << endl;
+		cout << "Cannot open  video" << endl;
 		return -1;
 	}
 
